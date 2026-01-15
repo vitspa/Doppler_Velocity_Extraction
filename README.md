@@ -18,7 +18,7 @@ Future work could focus on refining calibration procedures, improving synchroniz
 Although the wearable device was tested, the project’s goal was only partially achieved, underscoring the complexity of accurately measuring cerebral blood flow using PPG sensors.
 
                                                                          **ALGORITHM EXPLENATION**
-Doppler Velocity Envelope and ECG Extraction
+Doppler Velocity Envelope and ECG Extraction.
 The process began with the Doppler images (434 x 636 pixels, RGB) being saved and exported in DICOM (Digital Imaging and Communications in Medicine) format (Fig. 2.3). The images were treated as a scalar function f (X,Y), where X ∈ x = [1, ..., 636] and Y ∈ y = [1, ..., 434]. Subsequently, using image processing techniques the key steps for acquiring the blood volume flow were as follows (the code is presented in A):
 
 1. ROI Detection: Define the region of interest (ROI) of the image, that encompasses the yellow pixels containing the Doppler spectrum
